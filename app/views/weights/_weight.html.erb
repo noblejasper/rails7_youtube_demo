@@ -1,3 +1,4 @@
 <div id="<%= dom_id(weight) %>">
   <%= time_tag weight.created_at %>: <%= weight.gram.to_formatted_s(:delimited) %> g
+  <%= button_to "削除", rabbit_weight_path(@rabbit, weight), { method: :delete, form: { data: { turbo_confirm: "本当に削除しますか？" } } } %>
 </div>
