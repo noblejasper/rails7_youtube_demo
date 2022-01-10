@@ -1,0 +1,6 @@
+<%= form_with model: [ rabbit, Weight.new ] do |form| %>
+  <div>
+    <%= form.number_field :gram %>g<br>
+    <%= form.submit %>
+  </div>
+<% end %>

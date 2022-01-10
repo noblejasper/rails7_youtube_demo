@@ -1,0 +1,7 @@
+<h2>Weights<h2>
+<div>体重を記録した回数: <strong><%= rabbit.weights.count %>回</strong></div>
+<div id="weights">
+  <%= render rabbit.weights %>
+</div>
+
+<%= render "weights/new", rabbit: rabbit %>

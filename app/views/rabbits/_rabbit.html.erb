@@ -1,0 +1,22 @@
+<div id="<%= dom_id rabbit %>">
+  <p>
+    <strong>Name:</strong>
+    <%= rabbit.name %>
+  </p>
+
+  <p>
+    <strong>Birthday:</strong>
+    <%= rabbit.birthday %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= rabbit.description %>
+  </p>
+
+  <p>
+    <strong>Created :</strong>
+    <%= time_tag rabbit.created_at, "data":{"local":"time-ago"} %>
+  </p>
+
+</div>
