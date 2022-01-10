@@ -1,24 +1,5 @@
-# README
+のぶじゃすがYouTubeで配信しているRails7で開発しているうさぎを管理するWebアプリケーション
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 配信しているYouTubeチャンネル
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[のぶじゃす（nobjas） - YouTube](https://www.youtube.com/channel/UCTkQJnB6s-FF5aHJujsbFGQ)
